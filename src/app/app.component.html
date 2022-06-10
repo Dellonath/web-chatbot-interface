@@ -6,18 +6,18 @@
 
         <div class="card" id="chat1" style="border-radius: 15px;">
           <div
-            class="card-header d-flex justify-content-between align-items-center p-3 bg-info text-white border-bottom-0"
+            class="card-header d-flex justify-content-between align-items-center p-3 bg-dark text-white border-bottom-0"
             style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
             <i class="fas fa-angle-left"></i>
-            <p class="mb-0 fw-bold">Banco Magnus Chatbot</p>
+            <p class="mb-0 fw-bold">Chatbot</p>
             <i class="fas fa-times"></i>
           </div>
           <div class="card-body">
             <div *ngFor="let message of chat">
               <div class="d-flex flex-row justify-content-start mb-4" *ngIf="message.agent=='bot'">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
-                  alt="avatar 1" style="width: 45px; height: 100%;">
-                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(57, 192, 237,.2);">
+                <img src="https://user-images.githubusercontent.com/56659549/173120825-dd61d903-e53d-4c56-a9ff-e6e008f47f3e.png"
+                  alt="avatar 1" style="width: 50px; height: 100%;">
+                <div class="p-3 ms-3" style="border-radius: 15px; background-color: rgba(0, 0, 0, 0.2);">
                   <p class="small mb-0">
                     {{message.message}}
                   </p>
@@ -30,8 +30,8 @@
                     {{message.message}}
                   </p>
                 </div>
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
-                  alt="avatar 1" style="width: 45px; height: 100%;">
+                <img src="https://user-images.githubusercontent.com/56659549/173120881-73c5b043-0137-47cb-8913-96e1d1c64609.png"
+                  alt="avatar 1" style="width: 50px; height: 100%;">
               </div>
             </div>
 
@@ -47,13 +47,10 @@
                 #user
               />
             </div>
-
-          </div>
+          </div> 
         </div>
-
       </div>
     </div>
-
   </div>
 </section>
 

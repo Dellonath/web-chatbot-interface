@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "chatbot-angular": {
+    "web-chatbot-interface": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/chatbot-angular",
+            "outputPath": "dist/web-chatbot-interface",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "chatbot-angular:build:production"
+              "browserTarget": "web-chatbot-interface:build:production"
             },
             "development": {
-              "browserTarget": "chatbot-angular:build:development"
+              "browserTarget": "web-chatbot-interface:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "chatbot-angular:build"
+            "browserTarget": "web-chatbot-interface:build"
           }
         },
         "test": {

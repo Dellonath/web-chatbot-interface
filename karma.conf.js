@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/chatbot-angular'),
+      dir: require('path').join(__dirname, './coverage/web-chatbot-interface'),
       subdir: '.',
       reporters: [
         { type: 'html' },

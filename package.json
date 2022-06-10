@@ -1,5 +1,5 @@
 {
-  "name": "chatbot-angular",
+  "name": "web-chatbot-interface",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

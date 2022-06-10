@@ -28,7 +28,7 @@ interface CognitiveService {
 })
 export class AppComponent {
   
-  title = 'chatbot-angular';
+  title = 'web-chatbot-interface';
   start = true;
   user_name = true;
 
