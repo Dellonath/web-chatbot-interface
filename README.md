@@ -16,7 +16,7 @@
   Description
 </h2>
 <p>
-    The project is a basic Chatbot front-end for an own Cognitive Engine API to predict the intent and sentiment of a message. You can access the Cognitive Engine repository in this <a src="https://github.com/Dellonath/nlp-cognitive-engine">nlp-cognitive-engine</a>.
+    The project is a basic Chatbot front-end for an Cognitive Engine API that I developed to predict the intent and sentiment of a message. You can access the Cognitive Engine repository in this <a src="https://github.com/Dellonath/nlp-cognitive-engine">nlp-cognitive-engine</a>.
 </p>
 
 <h2>
