@@ -39,7 +39,7 @@ export class AppComponent {
   public async start_chat() {
     await this.delay(500);
     this.chat.push({
-      'message': 'Olá, sou o Maguinho, assistente virtual do Banco Magnus. Seja muito bem-vindo! Espero te ajudar no que você precisar. Qual seu nome?', 
+      'message': 'Hello, I\'m a virtual assistant at Magnus Bank. Be very welcome! I hope to help you with whatever you need. What is your name?', 
       'agent': 'bot'
     });
 
@@ -49,7 +49,7 @@ export class AppComponent {
   public async set_name(user: any) {
     await this.delay(500);
     this.chat.push({
-      'message': 'Muito bem, ' + user.value + ', o que você precisa?',
+      'message': 'Well, ' + user.value + ', what you want?',
       'agent': 'bot'
     });
 
@@ -72,7 +72,6 @@ export class AppComponent {
         this.bot_add_message(user);
       }
     }
-
     user.value = '';
   }
 
