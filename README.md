@@ -30,7 +30,7 @@ Angular is a TypeScript-based free and open-source web application framework led
 </div>
 
 <h2>
-  How install
+  How to install
 </h2>
 
 The <b>first</b> thing you need to do is download the <a src="https://github.com/Dellonath/nlp-cognitive-engine">nlp-cognitive-engine</a> repository and install it on your machine (<b>follow the repository instructions</b>). This will be the project back-end, where the Chatbot will use the API to try to predict the message intent and get the response.
