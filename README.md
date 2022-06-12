@@ -63,7 +63,7 @@ ng serve
 For standard, the project will be running in the browser in the ```localhost:4200/``` URL.
 
 <h3>
-  <b>Obs.</b> You need to run host the API in you machine, as described in nlp-cognitive-engine repo README.md.
+  <b>Obs.</b> You need to host the API in your local machine, as described in nlp-cognitive-engine repo README.md.
 </h3>
 
 <h2>
